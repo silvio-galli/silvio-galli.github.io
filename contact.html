@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title>welcome || Silvio Galli - personal website and portfolio</title>
+    <title>contact me || Silvio Galli - personal website and portfolio</title>
     <!-- Normalize 4.1.1 --> <!-- In 'production' substitute with CDN links -->
     <link href="/stylesheets/normalize.css" rel="stylesheet" />
     <!-- Bootstrap 3.3.7 --> <!-- In 'production' substitute with CDN links -->
@@ -25,7 +25,7 @@
     <script src="/javascripts/all.js"></script>
   </head>
 
-  <body class="welcome-index" >
+  <body class="welcome-contact" >
     <div id="siteWrapper">
       <header id="header" role="banner">
   <nav class="navbar navbar-default navbar-fixed-top">
@@ -43,131 +43,81 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <nav id="site-navigation" class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
         <!-- <div class="nav locale-nav pull-right">
-            <span>en</span> - <a href="/it/" title="Passa alla verisone italiana.">it</a>
+            <span>en</span> - <a href="/it/contact.html" title="Passa alla verisone italiana.">it</a>
         </div> -->
         <ul class="nav navbar-nav pull-right">
-          <li><a href="/" class="active">Home</a></li>
+          <li><a href="/" class="">Home</a></li>
           <li><a href="/abilities.html" class="">Abilities</a></li>
           <li><a href="/about.html" class="">About</a></li>
           <li><a href="/portfolio.html" class="">Portfolio</a></li>
-          <li><a href="/contact.html" class="">Contact</a></li>
+          <li><a href="/contact.html" class="active">Contact</a></li>
         </ul>
       </nav>
     </div>
   </nav>
 </header>
 
-          <!-- page header START-->
-  <div id="page-header" class="container-fluid welcome-header">
-    <div class="overlay"></div>
-    <div class="page-description">
-      <p class="lead sub-text">I'm a junior developer specializing in RubyOnRails and web stuff.</p>
-      <h1>A personal portfolio and website</h1>
-    </div>
-  </div>
-  <!-- page header END-->
-
+        
   <!-- intro section START-->
   <div id="intro-section">
     <div class="section-content-wrapper">
       <h1 class="text-center">
-        Hi, I'm Silvio Galli
+        Feel free to say hello...
       </h1>
       <p class="text-center">
-        I'm a Ruby on Rails developer and these pages are kind of my online resumé.<br />I built them to show who I am, what I can do and what I'd like to do.
+        
       </p>
     </div>
   </div>
   <!-- intro section END-->
 
-  <!-- portfolio section START-->
-  <div id="portfolio-section">
-    <div class="section-content-wrapper">
-      <p>My last three projects hosted on Github. More details on <a href="https://github.com/silvio-galli" target="_blank">my GitHub profile</a>.</p>
-      <h1>
-        My Latest Projects
-      </h1>
-      <div class="row">
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <figure>
-              <img src="/images/paperless.jpg" alt="Paperless" />
-              <figcaption>
-                <div class="image-caption">
-                  <p><em>Web Application</em></p>
-                  <p><strong>paperless</strong></p>
-                  <p class="button-white">
-                    <a href="https://github.com/silvio-galli/paperless/" target="_blank" title="Visit Paperless Github page in a new tab/window.">view on github</a>
-                  </p>
-                  <p class="description">Web based app to manage products, customers and orders in a local shop</p>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <figure>
-              <img src="/images/blocmarks.jpg" alt="Blocmarks" />
-              <figcaption>
-                <div class="image-caption">
-                  <p><em>Web Application</em></p>
-                  <p><strong>blocmarks</strong></p>
-                  <p class="button-white">
-                    <a href="https://github.com/silvio-galli/blocmarks/" target="_blank" title="Visit Blocmarks Github page in a new tab/window.">view on github</a>
-                  </p>
-                  <p class="description">Social bookmarking app that allows users to email, manage and share bookmarked URLs</p>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <figure>
-              <img src="/images/blocitoff.jpg" alt="Blocitoff" />
-              <figcaption>
-                <div class="image-caption">
-                  <p><em>Web Application</em></p>
-                  <p><strong>blocitoff</strong></p>
-                  <p class="button-white">
-                    <a href="https://github.com/silvio-galli/blocitoff/" target="_blank" title="Visit Blocitoff Github page in a new tab/window.">view on github</a>
-                  </p>
-                  <p class="description">A self-destructing to-do list application</p>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-      </div>
-        <p class="button"><a href="/portfolio.html">view all projects</a></p>
-    </div>
-  </div>
-  <!-- portfolio section END-->
 
-  <!-- contact section START-->
-  <div id="contact-section">
-    <div class="overlay"></div>
-    <div class="section-content-wrapper">
-      <div class="row">
-        <div class="col-md-12">
-          <p><em>What I like about coding?<br />The fact that it is an infinite learning process.<br />The possibility to learn and put into practice new things every day.</em></p>
-          <h1>Are you looking for someone with this kind of approach?</h1>
-            <p class="button-white">
-              <a href="/contact.html">contact me</a>
-            </p>
-        </div>
+  <!-- contact form section START-->
+  <div id="contact-form-section">
+    <div id="my-modal" class="modal fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <p class="lead">Thanks for sending! I'll check and answer your message as soon as possible.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <div class="row">
+      <div class="col-md-4">
+        <h1>Contact me</h1>
+        <p>If you'd like to say hi or anything longer, you can shoot me an email at <a href="mailto:silvio.galli@gmail.com">silvio.galli@gmail.com</a> or send me a message using this form.</p>
+      </div>
+      <div class="col-md-8">
+        <form id="contact-form" action="https://getsimpleform.com/messages?form_api_token=49c2cc5a1ad1a528b0a2e98ac4cf18ec" method="post">
+          <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+          <!--<input type='hidden' name='redirect_to' value='http://localhost:4567/thank-you.html' /> -->
+          <!-- all your input fields here.... -->
+          <div class="form-group">
+              <label for="name">Name: </label><br />
+              <input type="text" name="name" class="form-control" maxlength="250" required="required" autofocus="autofocus" placeholder="Your name *" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email: </label><br />
+            <input type="email" name="email" class="form-control" required="required" maxlength="250" placeholder="Your email address *" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message: </label><br />
+            <textarea name="message" class="form-control" required="required" rows="3" maxlength="1000" placeholder="Your message here... *">
+</textarea>
+            <span>* all fields are required</span>
+          </div>
+          <div class="form-group">
+            <input type="submit" value="Send Message" class="btn btn-default submit" />
+          </div>
+        </form>
       </div>
     </div>
   </div>
-  <!-- contact section END-->
-
-<!-- prefooter section START -->
-<div id="prefooter-section">
-  <div class="section-content-wrapper">
-    <h1>
-      I have no special talents, but I'm really passionate about coding.
-    </h1>
-      <p class="button-white">
-        <a href="/about.html">discover more about me</a>
-      </p>
-  </div>
-</div>
-<!-- prefooter section END -->
+  <!-- contact form section END-->
 
       <footer id="footer" role="siteinfo">
   <div id="footer-wrapper">

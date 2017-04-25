@@ -4,35 +4,31 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta charset="utf-8">
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
-
     <!-- Use title if it's in the page YAML frontmatter -->
     <title>portfolio || Silvio Galli - personal website and portfolio</title>
-
     <!-- Normalize 4.1.1 --> <!-- In 'production' substitute with CDN links -->
     <link href="/stylesheets/normalize.css" rel="stylesheet" />
     <!-- Bootstrap 3.3.7 --> <!-- In 'production' substitute with CDN links -->
     <link href="/stylesheets/bootstrap.min.css" rel="stylesheet" />
     <!-- Font Awesome 4.6.3 --> <!-- In 'production' substitute with CDN links -->
     <link href="/stylesheets/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="/stylesheets/site.css" rel="stylesheet" />
-
-    <script src="/javascripts/all.js"></script>
     <!-- JQuery --> <!-- In 'production' substitute with CDN links -->
     <script src="/javascripts/jquery-3.1.0.min.js"></script>
     <!-- Bootstrap.js --> <!-- In 'production' substitute with CDN links -->
     <script src="/javascripts/bootstrap.min.js"></script>
-
     <!-- load fonts -->
     <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,700italic|Abril+Fatface" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <!-- <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet"> -->
-
+    <!-- load site's style and js -->
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <script src="/javascripts/all.js"></script>
   </head>
 
-  <body class="welcome-portfolio">
+  <body class="welcome-portfolio" >
     <div id="siteWrapper">
       <header id="header" role="banner">
-    <nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -73,10 +69,10 @@
   <div id="intro-section">
     <div class="section-content-wrapper">
       <h1 class="text-center">
-        You can read specs of the projects in the README.md file on the GitHub repository
+        Quidem tempora aut cupiditate
       </h1>
       <p class="text-center">
-        
+        Quidem et aspernatur omnis est unde vel voluptas. Voluptate laudantium quaerat natus explicabo fugit rerum esse. Magni sit et consequuntur. Aliquam molestias ex officia delectus. Et laboriosam molestiae cupiditate repudiandae reprehenderit praesentium
       </p>
     </div>
   </div>
@@ -85,10 +81,26 @@
 <!-- portfolio section START-->
 <div id="portfolio-section">
   <div class="section-content-wrapper">
+    <h2>You can read specs of the projects on the README.md file of GitHub repositories</h2>
     <div class="row">
         <div class="col-md-4 col-sm-4 col-xs-12">
           <figure>
-            <img src="/images/blocmarks-screenshot.jpg" alt="Blocmarks screenshot" />
+            <img src="/images/paperless.jpg" alt="Paperless" />
+            <figcaption>
+              <div class="image-caption">
+                <p><em>Web Application</em></p>
+                <p><strong>paperless</strong></p>
+                <p class="button-white">
+                  <a href="https://github.com/silvio-galli/paperless/" target="_blank" title="Visit Paperless Github page in a new tab/window.">view on github</a>
+                </p>
+                <p class="description">Web based app to manage products, customers and orders in a local shop</p>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <figure>
+            <img src="/images/blocmarks.jpg" alt="Blocmarks" />
             <figcaption>
               <div class="image-caption">
                 <p><em>Web Application</em></p>
@@ -96,13 +108,44 @@
                 <p class="button-white">
                   <a href="https://github.com/silvio-galli/blocmarks/" target="_blank" title="Visit Blocmarks Github page in a new tab/window.">view on github</a>
                 </p>
+                <p class="description">Social bookmarking app that allows users to email, manage and share bookmarked URLs</p>
               </div>
             </figcaption>
           </figure>
         </div>
         <div class="col-md-4 col-sm-4 col-xs-12">
           <figure>
-            <img src="/images/bloccit-screenshot.jpg" alt="Bloccit screenshot" />
+            <img src="/images/blocitoff.jpg" alt="Blocitoff" />
+            <figcaption>
+              <div class="image-caption">
+                <p><em>Web Application</em></p>
+                <p><strong>blocitoff</strong></p>
+                <p class="button-white">
+                  <a href="https://github.com/silvio-galli/blocitoff/" target="_blank" title="Visit Blocitoff Github page in a new tab/window.">view on github</a>
+                </p>
+                <p class="description">A self-destructing to-do list application</p>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <figure>
+            <img src="/images/blocipedia.jpg" alt="Blocipedia" />
+            <figcaption>
+              <div class="image-caption">
+                <p><em>Web Application</em></p>
+                <p><strong>blocipedia</strong></p>
+                <p class="button-white">
+                  <a href="https://github.com/silvio-galli/blocipedia/" target="_blank" title="Visit Blocipedia Github page in a new tab/window.">view on github</a>
+                </p>
+                <p class="description">SaaS Wiki Collaboration Tool</p>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <figure>
+            <img src="/images/bloccit.jpg" alt="Bloccit" />
             <figcaption>
               <div class="image-caption">
                 <p><em>Web Application</em></p>
@@ -110,6 +153,7 @@
                 <p class="button-white">
                   <a href="https://github.com/silvio-galli/bloccit/" target="_blank" title="Visit Bloccit Github page in a new tab/window.">view on github</a>
                 </p>
+                <p class="description">A Reddit replica, built to learn the fundamentals of web development and Rails</p>
               </div>
             </figcaption>
           </figure>
@@ -124,20 +168,7 @@
                 <p class="button-white">
                   <a href="https://github.com/silvio-galli/address-bloc/" target="_blank" title="Visit Address-bloc Github page in a new tab/window.">view on github</a>
                 </p>
-              </div>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="col-md-4 col-sm-4 col-xs-12">
-          <figure>
-            <img src="/images/address-bloc-screenshot.jpg" alt="Address bloc screenshot" />
-            <figcaption>
-              <div class="image-caption">
-                <p><em>Ruby App</em></p>
-                <p><strong>FAKE</strong></p>
-                <p class="button-white">
-                  <a href="https://github.com/silvio-galli/address-bloc/" target="_blank" title="Visit Fake Github page in a new tab/window.">view on github</a>
-                </p>
+                <p class="description">A Ruby address book management system.</p>
               </div>
             </figcaption>
           </figure>

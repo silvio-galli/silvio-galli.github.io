@@ -3,26 +3,26 @@
   <head>
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta charset="utf-8">
-    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
     <!-- Use title if it's in the page YAML frontmatter -->
     <title>contact me || Silvio Galli - personal website and portfolio</title>
-    <!-- Normalize 4.1.1 --> <!-- In 'production' substitute with CDN links -->
-    <link href="/stylesheets/normalize.css" rel="stylesheet" />
-    <!-- Bootstrap 3.3.7 --> <!-- In 'production' substitute with CDN links -->
-    <link href="/stylesheets/bootstrap.min.css" rel="stylesheet" />
-    <!-- Font Awesome 4.6.3 --> <!-- In 'production' substitute with CDN links -->
-    <link href="/stylesheets/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-    <!-- JQuery --> <!-- In 'production' substitute with CDN links -->
-    <script src="/javascripts/jquery-3.1.0.min.js"></script>
-    <!-- Bootstrap.js --> <!-- In 'production' substitute with CDN links -->
-    <script src="/javascripts/bootstrap.min.js"></script>
+    <!-- Normalize 4.1.1 -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css" rel="stylesheet" />
+    <!-- Bootstrap 3.3.7 -->
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+    <!-- Font Awesome 4.6.3 -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
     <!-- load fonts -->
     <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,700italic|Abril+Fatface" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <!-- <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet"> -->
-    <!-- load site's style and js -->
-    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <!-- JQuery 3.1.0 -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Bootstrap.js -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="/javascripts/all.js"></script>
+    <!-- load site's style -->
+    <link href="/stylesheets/site.css" rel="stylesheet" />
   </head>
 
   <body class="welcome-contact" >
@@ -30,6 +30,7 @@
       <header id="header" role="banner">
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
+      <a class="brand navbar-brand" href="/"><i class="fa fa-paper-plane" aria-hidden="true"></i> Silvio Galli</a>
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-navbar-collapse">
@@ -38,7 +39,6 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="brand navbar-brand" href="/"><i class="fa fa-paper-plane" aria-hidden="true"></i> Silvio Galli</a>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <nav id="site-navigation" class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
@@ -47,8 +47,8 @@
         </div> -->
         <ul class="nav navbar-nav pull-right">
           <li><a href="/" class="">Home</a></li>
-          <li><a href="/abilities.html" class="">Abilities</a></li>
           <li><a href="/about.html" class="">About</a></li>
+          <li><a href="/abilities.html" class="">Abilities</a></li>
           <li><a href="/portfolio.html" class="">Portfolio</a></li>
           <li><a href="/contact.html" class="active">Contact</a></li>
         </ul>
@@ -133,6 +133,7 @@
       <ul>
         <li><a href="/">home</a></li>
         <li><a href="/about.html">about</a></li>
+        <li><a href="/abilities.html">abilities</a></li>
         <li><a href="/portfolio.html">portfolio</a></li>
         <li><a href="/contact.html">contact</a></li>
       </ul>
@@ -141,10 +142,10 @@
 
 
     <!-- footer social section START -->
-    <div id="social">
+    <div id="social" class="container">
       <ul>
             <li>
-<a href="mailto:silvio.galli@gmail.com" title="Send me an email">                  <i class="fa fa-fw fa-envelope"></i>
+<a href="/contact.html" title="Send me an email">                  <i class="fa fa-fw fa-envelope"></i>
 </a>            </li>
             <li>
 <a href="https://github.com/silvio-galli" title="My Github page." target="_blank">                  <i class="fa fa-fw fa-github"></i>
